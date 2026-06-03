@@ -1,5 +1,7 @@
 // import React,{useState,useEffect} from 'react';
 
+// import { useInsertionEffect } from "react";
+
 // function Counter() {
 //   const [count,setCount]=useState(0)
 //   useEffect(()=>{
@@ -93,7 +95,7 @@
 
 
 
-import React from 'react';
+import React from 'react'
 
 function Counter({title,count}) {
   return (
